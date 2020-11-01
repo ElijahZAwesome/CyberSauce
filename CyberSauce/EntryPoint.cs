@@ -107,7 +107,6 @@ namespace CyberSauce
             var header = mask.Find("Text");
             header.GetComponent<TextMeshProUGUI>().text
                 = "You are running CyberSauce";
-            header.GetComponent<TextMeshProUGUI>().ForceMeshUpdate();
             var sub = mask.Find("Goto options");
             sub.GetComponent<TextMeshProUGUI>().text
                 = "Internet capabilities are disabled";
