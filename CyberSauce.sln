@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSauce", "CyberSauce\CyberSauce.csproj", "{8B1BBDA4-85A3-4C0D-8372-02A8D06D35A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberSauce", "CyberSauce\CyberSauce.csproj", "{74C87B69-8B54-41CF-ACD8-073289FF4281}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B1BBDA4-85A3-4C0D-8372-02A8D06D35A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B1BBDA4-85A3-4C0D-8372-02A8D06D35A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B1BBDA4-85A3-4C0D-8372-02A8D06D35A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B1BBDA4-85A3-4C0D-8372-02A8D06D35A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C87B69-8B54-41CF-ACD8-073289FF4281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C87B69-8B54-41CF-ACD8-073289FF4281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C87B69-8B54-41CF-ACD8-073289FF4281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C87B69-8B54-41CF-ACD8-073289FF4281}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
