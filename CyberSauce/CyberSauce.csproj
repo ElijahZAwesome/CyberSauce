@@ -9,7 +9,7 @@
         <AppDesignerFolder>Properties</AppDesignerFolder>
         <RootNamespace>CyberSauce</RootNamespace>
         <AssemblyName>CyberSauce</AssemblyName>
-        <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -33,58 +33,77 @@
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="0Harmony, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\HarmonyX.2.0.6\lib\net40\0Harmony.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\HarmonyX.2.0.6\lib\net40\0Harmony.dll</HintPath>
+            <Private>True</Private>
+        </Reference>
+        <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\CyberSauce.Shared\Binaries\Assembly-CSharp.dll</HintPath>
         </Reference>
         <Reference Include="GlobalAssembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Cyber Hook\CyberHook_Data\Managed\GlobalAssembly.dll</HintPath>
+          <HintPath>..\CyberSauce.Shared\Binaries\GlobalAssembly.retail.dll</HintPath>
         </Reference>
         <Reference Include="Mono.Cecil, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
-          <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Mono.Cecil.Mdb, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
-          <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Mdb.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Mdb.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Mono.Cecil.Pdb, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
-          <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Pdb.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Pdb.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Mono.Cecil.Rocks, Version=0.11.2.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e">
-          <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Rocks.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Mono.Cecil.0.11.2\lib\net40\Mono.Cecil.Rocks.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="MonoMod.RuntimeDetour, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\MonoMod.RuntimeDetour.20.5.21.5\lib\net40\MonoMod.RuntimeDetour.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\MonoMod.RuntimeDetour.20.5.21.5\lib\net40\MonoMod.RuntimeDetour.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="MonoMod.Utils, Version=20.5.21.5, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\MonoMod.Utils.20.5.21.5\lib\net40\MonoMod.Utils.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\MonoMod.Utils.20.5.21.5\lib\net40\MonoMod.Utils.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\Json.Net.Unity3D.9.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Json.Net.Unity3D.9.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="Reactor.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\packages\Centrifuge.Mod.SDK.3.2.0\lib\net35\Reactor.API.dll</HintPath>
-          <Private>True</Private>
+            <HintPath>..\packages\Centrifuge.Mod.SDK.3.2.0\lib\net35\Reactor.API.dll</HintPath>
+            <Private>True</Private>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Core" />
         <Reference Include="System.Xml" />
+        <Reference Include="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\CyberSauce.Shared\Binaries\Unity.TextMeshPro.dll</HintPath>
+        </Reference>
         <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\..\..\..\SteamLibrary\steamapps\common\Cyber Hook\CyberHook_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath>..\CyberSauce.Shared\Binaries\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\CyberSauce.Shared\Binaries\UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <HintPath>..\CyberSauce.Shared\Binaries\UnityEngine.UIElementsModule.dll</HintPath>
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Debugging\Dumper.cs" />
+        <Compile Include="Mixins\AchievementManagerMixins.cs" />
         <Compile Include="Mixins\GameSparkManagerMixins.cs" />
+        <Compile Include="Mixins\LeaderboardMixins.cs" />
+        <Compile Include="Mixins\LoaderboardContainerMixins.cs" />
+        <Compile Include="Mixins\OptionFieldMixins.cs" />
+        <Compile Include="Mixins\OptionPanel_DynamicMixins.cs" />
         <Compile Include="SauceAPI.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SauceData.cs" />
     </ItemGroup>
     <ItemGroup>
-      <None Include="packages.config" />
+        <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -94,5 +113,10 @@
     <Target Name="AfterBuild">
     </Target>
     -->
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+        <Exec Command="taskkill /IM cyberhook.exe /F /FI &quot;status eq running&quot;" />
+        <Copy SourceFiles="$(TargetDir)$(TargetFileName)" DestinationFolder="D:\SteamLibrary\steamapps\common\Cyber Hook\CyberHook_Data\Centrifuge\GameSupport\" />
+        <Message Text="Copied output DLL!" />
+    </Target>
 
 </Project>
